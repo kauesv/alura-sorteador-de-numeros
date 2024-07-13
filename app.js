@@ -5,10 +5,18 @@ function sortear(){
     let ateONumero = parseInt(document.getElementById("ate").value);
     let sorteados = [];
 
-    //Seguranças
+    // Seguranças
     if (!quantidade || !doNumero || !ateONumero){
-        alert("Campos não foram preenchidos")
-        reiniciar()
+        alert("Campos não foram preenchidos");
+        reiniciar();
+        return;
+    }
+
+    // Verifica se a quantidade é maior que o intervalo disponível
+    if (quantidade > (ateONumero - doNumero + 1)) {
+        alert("Quantidade maior que o intervalo disponível.");
+        reiniciar();
+        return;
     }
 
     // Enquanto não for sorteado a quantidade de números, gere números aleatórios
