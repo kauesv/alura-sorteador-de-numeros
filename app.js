@@ -5,6 +5,12 @@ function sortear(){
     let ateONumero = parseInt(document.getElementById("ate").value);
     let sorteados = [];
 
+    //Seguranças
+    if (!quantidade || !doNumero || !ateONumero){
+        alert("Campos não foram preenchidos")
+        reiniciar()
+    }
+
     // Enquanto não for sorteado a quantidade de números, gere números aleatórios
     while (sorteados.length < quantidade){
         let numeroAleatorio = obterNumeroAleatorio(doNumero, ateONumero);
