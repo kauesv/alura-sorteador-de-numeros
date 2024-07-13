@@ -5,7 +5,7 @@ function sortear(){
     let ateONumero = parseInt(document.getElementById("ate").value);
     let sorteados = [];
 
-    // Seguranças
+    // Valida se os campos foram preenchidos
     if (!quantidade || !doNumero || !ateONumero){
         alert("Campos não foram preenchidos");
         reiniciar();
