@@ -32,7 +32,7 @@ Exemplo:
 - De: 1
 - Até: 10
 
-Com o exemplo a seguir o código deve gerar aleatóriamente 5 números de 1 a 10. Se caso a quantidade for impossível obter no intervalo o código retorna uma mensagem ao usuário.
+Com o exemplo o código deve gerar aleatóriamente 5 números de 1 a 10. Se caso a quantidade for impossível obter no intervalo o código retorna uma mensagem ao usuário.
 
 ### Meu Ponto de Vista
 
