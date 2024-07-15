@@ -25,7 +25,8 @@ Nesse repositório compartilho o resultado de um curso que participei na Alura.
 
 ### Sobre o projeto
 
-O projeto é um sistema que gera números aleatórios em um intervalo, e passando a quantidade que deseja ser retornado, que são determinado pelo usuário.
+O projeto é um sistema que gera números aleatórios em um intervalo, passando a quantidade que deseja ser retornado, que são determinado pelo usuário.
+
 Exemplo:
 - Quantidade: 5
 - De: 1
